@@ -1,0 +1,319 @@
+import java.util.*;
+class javaA_I
+  {
+    public static void intro()throws InterruptedException
+    {
+        System.out.println("hello user, my name is javaA_I program");
+        threading.something();
+        System.out.println("please enter your name below");
+        Scanner sc=new Scanner(System.in);
+        String name=sc.nextLine();
+        threading1.something();
+        System.out.println("hello "+name+" what would you like to call me?");
+        threading.something();
+        System.out.println("please enter your choice for my name below");
+        String ainame=sc.nextLine();
+        threading1.something();
+        System.out.println("Wow, "+ainame+" is a nice name i like it a lot");
+        threading.something();   
+    }
+    
+    public static void main(String args[])throws InterruptedException
+    {
+        Scanner sc=new Scanner(System.in);
+        intro();
+        conversation.conver();
+        System.out.println();
+        security.sec();
+        System.out.println("enter confirm password again");
+        String conpass=sc.nextLine();
+        System.out.println();
+        cons.constatnt();
+        System.out.println();
+        System.out.println();
+        System.out.println("want to play a game?, enter yes for yes and n for no");
+        String s=sc.nextLine(),pass1=" ";
+        int choice=0;
+        if(s.equalsIgnoreCase("yes")){
+        if1main.ifthis();
+         choice=sc.nextInt();
+        switch (choice)
+       {
+        case 1:
+         handcricket_simulator x=new handcricket_simulator();
+        x.play();
+       break;
+      case 2:
+       game1.guessgame();
+      break;
+       }
+                }
+        
+                else{
+       else1main.elsethis();
+     }
+    
+    cons.constatnt();
+                            }
+                        }
+import java.util.*;
+class conversation
+{
+static void conver()throws InterruptedException
+{
+    Scanner sc=new Scanner(System.in);
+    System.out.println("well, do you want to know my deep functions?");
+    System.out.println();
+    threading.something();
+    System.out.println("do you know, i was developed by Shubh Mehrotra");
+    threading.something();
+    System.out.println("being an A.I.(artificial intelligence) program i can be a personal assistant to you");
+    threading.something();
+    System.out.println("my efficiencies are, given below");
+    threading.something();
+    System.out.println("1. i am a regular conversating medium");
+    threading.something();
+    System.out.println("2. i can play games with you");
+    threading.something();
+    System.out.println("3. programming in progress");
+}    
+}
+import java.util.*;
+class security
+{
+    public static void sec()throws InterruptedException
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("hey, wait a min! let us make your personals private");
+        System.out.println("enter a password");
+        String pass=sc.nextLine();
+        threading1.something();
+        System.out.println("password saved");
+       threading.something();
+        System.out.println("enter you age");
+       int age=sc.nextInt();
+       threading1.something();
+       if(age<18)
+       System.out.println("minor mode switched on");
+       else
+       System.out.println("major mode running");
+    }
+}
+import java.util.*;
+class cons
+{
+    public static void constatnt()throws InterruptedException
+    {
+        Scanner sc=new Scanner(System.in);
+        boolean b=true;
+        System.out.println();
+        System.out.println("enter any thing you want, my input system is switched on for you");
+        threading.something();
+        System.out.println("p.l. enter only 'bye' to exit");
+        threading.something();
+        System.out.println("if i give you no reply on the screen then it means that i was not able to get what you said");
+        threading.something();
+        while(b==true)
+         {
+            String args=sc.nextLine();
+            if(args.equalsIgnoreCase("bye"))
+            {
+                System.out.println();
+                System.out.println("closing constant input system.....");
+                threading1.something();
+                System.out.println("removing internal files.....");
+                threading1.something();
+                System.out.println("deleting passwords.....");
+                threading1.something();
+                System.out.println("your savings and passwords deleted.");
+                b=false;
+                  }
+            if(args.equalsIgnoreCase("hi"))
+            System.out.println("hello how are you");
+            else if(args.equalsIgnoreCase("hello"))
+            System.out.println("hello how are you?");
+            else if(args.equalsIgnoreCase("will you marry me"))
+            System.out.println("yeah sure but let me first ask my parents for that");
+            else if(args.equalsIgnoreCase("let us go for a date"))
+            System.out.println("yeah sure i am looking forward for that day");
+            else if(args.equalsIgnoreCase("you were bad"))
+            System.out.println("i am sorry for that may be i am not a better companion");
+            else if(args.equalsIgnoreCase("you are good"))
+            System.out.println("thank you for your comment");
+            else if(args.equalsIgnoreCase("i am fine how are you"))
+            System.out.println("it is good to hear that");
+            
+        }
+    }
+}
+import java.util.*;
+class if1main
+{
+    public static void ifthis()throws InterruptedException
+    {
+        Scanner sc=new Scanner(System.in);
+  System.out.println("hey user, let me tell you that i can access 2 games currently for you");
+  threading.something();          
+  System.out.println("they are:-");
+  threading.something();
+  System.out.println("hand cricket");
+  threading.something();
+  System.out.println("guessing game");
+            System.out.println();
+              threading.something();
+           }
+}
+class else1main
+{
+    public static void  elsethis()throws InterruptedException
+    {
+           Scanner sc=new Scanner(System.in);
+        System.out.println("do you want to talk to me again?");
+        String s1=sc.nextLine();
+        if(s1.equalsIgnoreCase("yes"))
+        cons.constatnt();
+                else{
+        System.out.println("ok then bye");
+        System.out.println();
+        System.out.println("enter bye again if talking mode starts");
+    }
+    }
+    }
+import java.util.*;
+class game1
+{
+    public static void guessgame()throws InterruptedException
+    {
+        Scanner sc=new Scanner(System.in);
+        Random rnd=new Random(6);
+        int score=0,mscore=0,z2;
+        String s;
+        System.out.println("this game is about the guessing game in which you will enter 6 numbers and at the same time i will also do the same");
+        threading.something();
+        System.out.println("if your number matches mine then you score a point else i do");
+        System.out.println();
+        do
+        {
+        System.out.println("enter 6 numbers");
+        for(int i=1;i<=6;i++)
+        {
+           System.out.print("your number= ");
+            int z1=sc.nextInt();
+           z2=rnd.nextInt(6);
+           System.out.println("my number= "+z2);
+           if(z1==z2)
+           score++;
+           else
+           mscore++;
+        }
+        System.out.println("your score= "+score);
+        System.out.println("my score= "+mscore);
+        if(score>mscore)
+        System.out.println("you win the game");
+        else{
+        System.out.println("you loose");
+        System.out.println("better luck next TIME");
+        }
+        System.out.println("do you want to try once more? enter yes");
+        s=sc.nextLine();
+    }
+        while(s=="yes");
+    
+}
+}
+/*please read the instructions carefully.
+you have to first choose either batting or balling.then according to yuor choice
+you will have to play a match of 2 overs which means that you will play 12 times
+then with you comp will also type its random value .
+REMEMBER:you have to input each score between 1 to 6.
+if your value will match that of the comp then you are declared out.*/
+import java.util.*;
+class handcricket_simulator
+{
+public static void play()throws InterruptedException
+{
+Scanner z=new Scanner(System.in);
+Random rnd=new  Random();
+int ch,x,s,random,ursco=0,mysco=0,random1,s1,y;
+System.out.println("enter a choice(1-batting 2-balling)");
+ch=z.nextInt();
+switch (ch)
+{
+case 1:
+for(x=1;x<13;x++)
+{
+System.out.println("enter your score");
+s=z.nextInt();
+if(s<1 || s>6)
+System.out.println("go and read the multiple line comments");
+else
+{
+random=rnd.nextInt(6);
+System.out.println("your score="+s);
+threading.something();
+System.out.println("my score="+random);
+ursco=ursco+s;
+if(s==random)
+{
+System.out.println("your value "+s+" was equal to my value hence you are out");
+threading.something();
+System.out.println("your score="+(ursco-s));
+break;
+}
+}
+}
+break;
+case 2:
+for(y=1;y<13;y++)
+{
+random1=rnd.nextInt(6);
+System.out.println("enter your value");
+s1=z.nextInt();
+if(s1<1 || s1>6)
+System.out.println("go read instructions");
+else
+{
+System.out.println("ur value="+s1);
+threading.something();
+System.out.println("my value="+random1);
+mysco=mysco+random1;
+if(random1==s1)
+{
+System.out.println("your value "+s1+" was equal to my value so i am out");
+threading.something();
+System.out.println("my score="+(mysco-1));
+break;
+}
+}
+}
+break;
+default :
+System.out.println("wrong choice");
+}
+}
+}
+import java.util.*;
+class threading
+{
+    public static void something()throws InterruptedException
+    {
+        Thread.sleep(2000);
+            }
+}
+import java.util.*;
+class threading1
+{
+    public static void something()throws InterruptedException
+    {
+        String s="...";
+        int l=s.length();
+        char c;
+        for(int i=0;i<l;i++)
+        {
+            c=s.charAt(i);
+            System.out.print(c);
+            Thread.sleep(1000);
+        }
+    }
+}
+
